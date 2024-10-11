@@ -6,8 +6,8 @@ public class Exercicio2 {
         int n1 = 5;
         double n2 = 7.8;
 
-        double conv = n1;
+        n2 += (double) n1;
 
-        System.out.println("Resultado da soma: " + (conv + n2));
+        System.out.println("Resultado da soma: " + n2);
     }
 }
