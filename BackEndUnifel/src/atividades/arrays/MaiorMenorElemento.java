@@ -4,12 +4,14 @@ public class MaiorMenorElemento {
 
     public static void main(String[] args) {
         int[] numeros = {10, 100, 30, 3500, 4, 2, 1000};
-        int maior = 0, menor = 100;
+        int maior = numeros[0], menor = numeros[0];
 
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] > maior) {
                 maior = numeros[i];
-            } else if (numeros[i] < menor) {
+            }
+
+            if (numeros[i] < menor) {
                 menor = numeros[i];
             }
         }
