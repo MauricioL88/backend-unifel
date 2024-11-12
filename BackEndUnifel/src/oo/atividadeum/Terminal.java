@@ -2,9 +2,8 @@ package oo.atividadeum;
 
 public class Terminal {
     public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa();
+        PessoaJuridica evelin = new PessoaJuridica();
         
-        pessoa.entrar();
-        pessoa.imprimir();
+        System.out.println(evelin.getId());
     }
 }

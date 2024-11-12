@@ -2,7 +2,8 @@ package oo.atividadeum;
 
 import java.util.Scanner;
 
-public class Pessoa {
+public abstract class Pessoa implements InterfaceCadastro {
+
     public static int num = 1;
 
     private Integer id;
@@ -10,13 +11,14 @@ public class Pessoa {
     private Endereco endereco;
     private Telefone telefone;
     private String email;
-    
+
     public Pessoa() {
         this.id = Pessoa.num++;
         this.endereco = new Endereco();
         this.telefone = new Telefone();
     }
 
+    @Override
     public void entrar() {
         Scanner entrada = new Scanner(System.in);
         System.out.print("Digite o seu nome: ");
@@ -28,6 +30,7 @@ public class Pessoa {
         entrada.close();
     }
 
+    @Override
     public void imprimir() {
         System.out.println("\n- Dados -");
         System.out.println("Id: " + this.getId());
