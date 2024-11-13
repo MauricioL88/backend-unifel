@@ -27,7 +27,6 @@ public abstract class Pessoa implements InterfaceCadastro {
         this.telefone.entrar();
         System.out.print("Digite o seu email: ");
         setEmail(this.email = entrada.nextLine());
-        entrada.close();
     }
 
     @Override
@@ -40,7 +39,6 @@ public abstract class Pessoa implements InterfaceCadastro {
         System.out.println("- Telefone -");
         this.telefone.imprimir();
         System.out.println("Email: " + this.getEmail());
-        System.out.println("\n");
     }
 
     public Integer getId() {
