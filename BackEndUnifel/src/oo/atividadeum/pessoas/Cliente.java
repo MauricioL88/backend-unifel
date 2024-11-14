@@ -1,4 +1,7 @@
-package oo.atividadeum;
+package oo.atividadeum.pessoas;
+
+import oo.atividadeum.auxiliares.Endereco;
+import oo.atividadeum.abstratas.PessoaJuridica;
 
 public class Cliente extends PessoaJuridica{
     private Double limite_credito;

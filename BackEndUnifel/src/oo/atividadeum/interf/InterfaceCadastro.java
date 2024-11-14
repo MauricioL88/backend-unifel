@@ -1,4 +1,4 @@
-package oo.atividadeum;
+package oo.atividadeum.interf;
 
 import java.util.Scanner;
 

@@ -1,4 +1,6 @@
-package oo.atividadeum;
+package oo.atividadeum.financeiro;
+
+import oo.atividadeum.interf.InterfaceCadastro;
 
 public abstract class Financeiro implements InterfaceCadastro {
 

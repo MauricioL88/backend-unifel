@@ -1,6 +1,9 @@
-package oo.atividadeum;
+package oo.atividadeum.abstratas;
 
 import java.util.Scanner;
+import oo.atividadeum.auxiliares.Endereco;
+import oo.atividadeum.interf.InterfaceCadastro;
+import oo.atividadeum.auxiliares.Telefone;
 
 public abstract class Pessoa implements InterfaceCadastro {
 

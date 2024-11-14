@@ -1,4 +1,4 @@
-package oo.atividadeum;
+package oo.atividadeum.auxiliares;
 
 import java.util.Scanner;
 

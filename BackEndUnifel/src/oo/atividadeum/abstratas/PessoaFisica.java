@@ -1,4 +1,6 @@
-package oo.atividadeum;
+package oo.atividadeum.abstratas;
+
+import oo.atividadeum.abstratas.Pessoa;
 
 public abstract class PessoaFisica extends Pessoa {
     private String cpf;
