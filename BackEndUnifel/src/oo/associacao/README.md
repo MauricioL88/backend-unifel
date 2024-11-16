@@ -8,7 +8,9 @@ ex:
 <br>
 * As classes Cliente e Conta do pacote "simples" deste estudo;
 * No diagrama de classe essa relação é representada por uma linha simples:
-```
+
+```mermaid
+
 classDiagram
 Cliente --> Conta
 
