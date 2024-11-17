@@ -13,6 +13,16 @@ public class Conta {
         this.cliente = cliente;
         this.saldo = 0.0;
     }
+    
+    public void imprimirConta() {
+        System.out.println("- Dados Cliente -");
+        this.cliente.imprimirDados();
+        System.out.println("- Dados da Conta -");
+        System.out.println("Agencia: "+getAgencia());
+        System.out.println("Conta: "+getConta());
+        System.out.println("Saldo Atual: R$ "+getSaldo()+" reais.");
+        System.out.println("\n");
+    }
 
     public static int getNum() {
         return num;

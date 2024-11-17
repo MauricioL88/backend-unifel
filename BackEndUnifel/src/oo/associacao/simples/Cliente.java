@@ -16,6 +16,12 @@ public class Cliente {
         this.anoNascimento = anoNascimento;
         this.email = email;
     }
+    
+    public void imprimirDados() {
+        System.out.println("Nome: "+getNome());
+        System.out.println("Email: "+getEmail());
+        System.out.println("ID Cliente: "+getId());
+    }
 
     public static int getNum() {
         return num;
