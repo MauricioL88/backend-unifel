@@ -1,4 +1,4 @@
-package oo.associacao.simples;
+package oo.relacoes.associacao_simples;
 
 public class Cliente {
     public static int num = 1;
