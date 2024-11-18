@@ -64,7 +64,7 @@ Produto --o Carrinho : Agregação
 não exite sem o "todo";
 * A classe "todo" cria uma instância da classe "parte" dentro de si, sofrendo assim,
 a consequência de exclusão quando a classe "todo" for excluída;
-* Sua representação se dá no simbolo do traço com um losando preechido na sua extremidade,
+* Sua representação se dá no simbolo do traço com um losango preechido na sua extremidade,
 partindo da classe "parte" para o "todo";
 
 #### Ex:
